@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css/normalize.css">
+    <link rel="stylesheet" href="estilos.css/index.css">
+</head>
+<body>
+    <aside id="popup" class="popup">
+        <div class="contenedor--popup">
+            <span>Escuchando..</span>
+            <div class="constenedor--imagen">
+                <img src="icono/microfono.svg" alt="Microfono">
+            </div>
+        </div>
+    </aside>
+    <div class="menu">
+        <form id="formulario" class="formulario">
+            <input id="busqueda" type="search" placeholder="Buscar">
+            <button type="submit">
+                <img src="icono/lupa.svg" alt="Icono lupa">
+            </button>
+        </form>
+    
+        <button class="microfono" id="microfono" type="submit">
+            <img src="icono/microfono.png" alt="Icono microfono">
+        </button>
+    </div>
+    <main>
+        <h1>Resultados</h1>
+        <ul id="lista--resultados" class="lista--resultados">
+        </ul>
+    </main>
+    <script src="index.js" defer></script>
+</body>
+</html>
